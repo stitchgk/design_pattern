@@ -22,7 +22,7 @@ public class XMLUtil {
             DocumentBuilder builder = dbFactory.newDocumentBuilder();
             Document doc = builder.parse(XMLUtil.class.getClassLoader().getResourceAsStream("config_command.xml"));
 
-            NodeList nl = doc.getElementsByTagName("classNode");
+            NodeList nl = doc.getElementsByTagName("className");
             Node classNode = null;
             if (0 == i) {
                 classNode = nl.item(0).getFirstChild();

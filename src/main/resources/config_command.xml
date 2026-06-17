@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <className>com.github.stitchgk.behavior.command.MinimizeCommand</className>
-    <className>com.github.stitchgk.behavior.command.HelpCommand</className>
+    <className>com.github.stitchgk.behavior.command.ScreenHandler</className>
 </config>

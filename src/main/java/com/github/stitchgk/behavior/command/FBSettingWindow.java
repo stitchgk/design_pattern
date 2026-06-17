@@ -33,7 +33,7 @@ public class FBSettingWindow {
     public void display() {
         System.out.println("显示窗口：" + this.title);
         for (FunctionButton fb : this.functionButtonList) {
-            fb.display();
+            System.out.println(fb.getName());
         }
     }
 }
