@@ -1,4 +1,4 @@
-package com.github.stitchgk.command;
+package com.github.stitchgk.behavior.command;
 
 import com.github.stitchgk.behavior.commandfile.Command;
 import com.github.stitchgk.behavior.commandfile.ConfigOperator;
